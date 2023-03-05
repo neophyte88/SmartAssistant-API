@@ -29,3 +29,22 @@
 
 6. Run the server
 `python manage.py runserver`
+
+
+<hr>
+
+### API Endpoints
+
+* **/chat/** - POST
+    * Request Body
+    ```
+    {
+        "question": "What is the weather like today?"
+    }
+    ```
+    * Response
+    ```
+    {
+        "response": "The weather is sunny today."
+    }
+    ```
